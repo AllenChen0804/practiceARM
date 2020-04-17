@@ -39,7 +39,11 @@ w8 = w8 + w1;
 //  00000001000062f4         ldr        w8, [sp, #0x4]
 //  00000001000062f8         str        w0, sp
 //  00000001000062fc         mov        x0, x8
-return w8;
+ return w8;
+//  0000000100006300         ldp        x29, x30, [sp, #0x10]
+//  0000000100006304         add        sp, sp, #0x20
+//  0000000100006308         ret
+
 //        printf("Hello World");
 //        int c = a + b + g;
 //        return c;
