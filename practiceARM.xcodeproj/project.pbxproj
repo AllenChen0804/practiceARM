@@ -14,6 +14,7 @@
 		55C52DA12449991600C3D3D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C52DA02449991600C3D3D6 /* Assets.xcassets */; };
 		55C52DA42449991600C3D3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C52DA22449991600C3D3D6 /* LaunchScreen.storyboard */; };
 		55C52DA72449991600C3D3D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C52DA62449991600C3D3D6 /* main.m */; };
+		55C52E1F244EF70000C3D3D6 /* asm.s in Sources */ = {isa = PBXBuildFile; fileRef = 55C52E1E244EF70000C3D3D6 /* asm.s */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		55C52DA32449991600C3D3D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55C52DA52449991600C3D3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C52DA62449991600C3D3D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55C52E1E244EF70000C3D3D6 /* asm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = asm.s; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				55C52DA22449991600C3D3D6 /* LaunchScreen.storyboard */,
 				55C52DA52449991600C3D3D6 /* Info.plist */,
 				55C52DA62449991600C3D3D6 /* main.m */,
+				55C52E1E244EF70000C3D3D6 /* asm.s */,
 			);
 			path = practiceARM;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C52E1F244EF70000C3D3D6 /* asm.s in Sources */,
 				55C52D9C2449990D00C3D3D6 /* ViewController.m in Sources */,
 				55C52D962449990D00C3D3D6 /* AppDelegate.m in Sources */,
 				55C52DA72449991600C3D3D6 /* main.m in Sources */,
