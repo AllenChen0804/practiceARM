@@ -15,6 +15,7 @@
 		55C52DA42449991600C3D3D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C52DA22449991600C3D3D6 /* LaunchScreen.storyboard */; };
 		55C52DA72449991600C3D3D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C52DA62449991600C3D3D6 /* main.m */; };
 		55C52E1F244EF70000C3D3D6 /* asm.s in Sources */ = {isa = PBXBuildFile; fileRef = 55C52E1E244EF70000C3D3D6 /* asm.s */; };
+		55C52E2324519EFF00C3D3D6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C52E2224519EFF00C3D3D6 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		55C52DA52449991600C3D3D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55C52DA62449991600C3D3D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55C52E1E244EF70000C3D3D6 /* asm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = asm.s; sourceTree = "<group>"; };
+		55C52E2124519EFF00C3D3D6 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		55C52E2224519EFF00C3D3D6 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		55C52D932449990D00C3D3D6 /* practiceARM */ = {
 			isa = PBXGroup;
 			children = (
+				55C52E2124519EFF00C3D3D6 /* Person.h */,
+				55C52E2224519EFF00C3D3D6 /* Person.m */,
 				55C52D942449990D00C3D3D6 /* AppDelegate.h */,
 				55C52D952449990D00C3D3D6 /* AppDelegate.m */,
 				55C52D972449990D00C3D3D6 /* SceneDelegate.h */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C52E2324519EFF00C3D3D6 /* Person.m in Sources */,
 				55C52E1F244EF70000C3D3D6 /* asm.s in Sources */,
 				55C52D9C2449990D00C3D3D6 /* ViewController.m in Sources */,
 				55C52D962449990D00C3D3D6 /* AppDelegate.m in Sources */,
